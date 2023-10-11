@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  background: url(https://img.freepik.com/free-photo/young-woman-doctor-with-stethoscope-hospital_1303-20700.jpg?w=900&t=st=1697034841~exp=1697035441~hmac=aa5d83df1ba7352c295a63888b5abdd345ceae1a9789cb93f27709607366bb4d)
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  fill: blue(0);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: red;
+}
